@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+encoding:         utf-8
+title:            Chris Ko
+tagline:
+description:      "Mathematics and Engineering Student at Queen's University in Kingston"
+url:
+baseurl:          /
+
+author:
+  name:
+  url:
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/chriskopher
+
+linkedin:
+  link:           https://ca.linkedin.com/in/chriskopher
