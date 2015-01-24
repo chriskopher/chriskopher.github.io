@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
+<div class="wrapper">
+  <header>
   {% include head.html %}
 
-  <header>
-      <h1>Christopher Ko</h1>
-      <p>Mathematics and Engineering Student at Queen&#39;s University in Kingston</p>
+      <h1>{{ site.author.name }}</h1>
+      <p>{{ site.description }}</p>
 
-      <p class="view"><a href="https://github.com/chriskopher">View My GitHub Profile</a></p>
-      <p class="view"><a href="https://ca.linkin.com/in/chriskopher">View my LinkedIn Profile</a></p>
+      <p class="view"><a href="{{ site.github.repo }}">GitHub</a></p>
+      <p class="view"><a href="{{ site.linkedin.link }}">LinkedIn</a></p>
+      <p class="mail"><a href="{{ site.email.link }}">Email</a></p>
   </header>
-  
+
+<section>
   <body>
   <div class="content container">
       {{ content }}
   </div>
   </body>
+</section>
+
+<footer>
+  {% include footer.html %}
+</footer>
+
+</div>
+
 </html>

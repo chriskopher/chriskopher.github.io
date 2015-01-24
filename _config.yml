@@ -8,14 +8,14 @@ relative_permalinks: true
 
 # Setup
 encoding:         utf-8
-title:            Chris Ko
+title:            Christopher Ko
 tagline:
 description:      "Mathematics and Engineering Student at Queen's University in Kingston"
 url:
 baseurl:          /
 
 author:
-  name:
+  name:          Christopher Ko
   url:
 
 paginate:         5
@@ -28,3 +28,6 @@ github:
 
 linkedin:
   link:           https://ca.linkedin.com/in/chriskopher
+
+email:
+  link:           mailto:christopher.ko@queensu.ca
