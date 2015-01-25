@@ -21,13 +21,13 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          0.5
 
 github:
   repo:           https://github.com/chriskopher
 
 linkedin:
-  link:           https://ca.linkedin.com/in/chriskopher
+  link:           https://ca.linkedin.com/in/kochristopher
 
 email:
   link:           mailto:christopher.ko@queensu.ca

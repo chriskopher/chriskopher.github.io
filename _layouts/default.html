@@ -8,22 +8,42 @@
       <h1>{{ site.author.name }}</h1>
       <p>{{ site.description }}</p>
 
-      <p class="view"><a href="{{ site.github.repo }}">GitHub</a></p>
-      <p class="view"><a href="{{ site.linkedin.link }}">LinkedIn</a></p>
-      <p class="mail"><a href="{{ site.email.link }}">Email</a></p>
+      <strong>Connect with me</strong>
+      <nav>
+      <a href="{{ site.github.repo }}">GitHub</a> |
+      <a href="{{ site.linkedin.link }}">LinkedIn</a> |
+      <a href="{{ site.email.link }}">Email</a>
+      </nav>
+      
+      <p><hr></p>
+      
+      <nav>
+        <a {% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+  
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+      
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <p><a {% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></p>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </nav>
+
   </header>
 
 <section>
   <body>
-  <div class="content container">
-      {{ content }}
-  </div>
+    {{ content }}
   </body>
 </section>
 
-<footer>
   {% include footer.html %}
-</footer>
 
 </div>
 
