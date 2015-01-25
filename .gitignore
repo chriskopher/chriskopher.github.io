@@ -30,7 +30,7 @@
 ######################
 .DS_Store
 .DS_Store?
-._site/*
+_site/*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
