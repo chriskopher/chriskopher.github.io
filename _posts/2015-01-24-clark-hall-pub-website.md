@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Clark Hall Pub Website
+start: 2015-01-24
+end: Present
 ---
 
 Working under the Engineering Society of Queen's University as an IT Manager, I have been tasked with creating an new online branding website for the well-known campus pub.

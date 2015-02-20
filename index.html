@@ -3,11 +3,18 @@ layout: default
 title: Home
 ---
 
-<h2>Hello World!</h2>
+<h2>Welcome!</h2>
 
-<p class="message">This website is hosted on GitHub Pages.</p>
+<p class="message">Hi there! My name is Christopher Ko. It's a pleasure to meet you.</p>
 
-Here is code for a function to implement Dijkstra's Algorithm in MATLAB:
+<p>
+Welcome to my website where I'll be keeping track of my personal projects and the like.
+<br>
+Feel free to have a look around, but if you don't want to,
+here is code for a function to implement
+  <a href="http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijkstra's Algorithm</a>
+    in MATLAB:
+</p>
 
 <pre><code>
 function [D, path] = dijkstra(G, nodes)
@@ -17,13 +24,13 @@ function [D, path] = dijkstra(G, nodes)
     %
     % The function will return the shortest distance between the given
     % nodes and output the path of nodes taken.
- 
+
     v = size(G, 1); 	 % Number of vertices
     D = [];
     path = [];
     temp = [];
 
- 
+
     %Making matrix full of the edge weight's and Inf's if not connected
     for i = 1:v
         for j = 1:v
@@ -32,7 +39,7 @@ function [D, path] = dijkstra(G, nodes)
             end
         end
     end
- 
+
     dist = inf(1, v);   %setting distances to be infinite
     seen = ones(1, v);  %setting seen to be all ones
     not_seen = v;       %making all nodes not yet seen
