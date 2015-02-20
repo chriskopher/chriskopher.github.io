@@ -8,12 +8,14 @@ title: Projects
 </p>
 
 <div class="post">
-{% for post in site.posts %}
-    <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {% for post in site.tags.project %}            <!--- filters page to only show tags: projects --->
 
-    <span class="post-date"> {{ post.start | date: "%-d %B %Y" }}
-    &#8212 {{ post.end | date: "%-d %B %Y" }} </span>
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
-    {{ post.excerpt }}
-{% endfor %}
+  <span class="post-date"> {{ post.start | date: "%-d %B %Y" }}
+    &#8212 {{ post.end | date: "%-d %B %Y" }}
+  </span>
+
+  {{ post.excerpt }}
+  {% endfor %}
 </div>

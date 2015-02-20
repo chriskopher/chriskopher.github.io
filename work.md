@@ -13,7 +13,7 @@ title: Work
     <td> <img src="{{ site.url }}/assets/cbn_logo_600dpi_210pix.jpg"/> </td>
     <td> <b>Canadian Bank Note Company, Limited.</b> <br>
          <i>Manufacturing Engineering Summer Student</i> <br>
-         May 2014 - August 2014 <br>
+         May 2014 &#8212 August 2014 <br>
          Ottawa, Ontario
     </td>
   </tr>

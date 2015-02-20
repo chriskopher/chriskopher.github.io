@@ -3,7 +3,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        none
 relative_permalinks: true
 
 # Setup
@@ -31,3 +31,6 @@ linkedin:
 
 email:
   link:           mailto:christopher.ko@queensu.ca
+
+gems:
+  - jekyll-sitemap
