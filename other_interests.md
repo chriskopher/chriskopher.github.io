@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Interests
+published: false
 ---
 
 <p class="message">
