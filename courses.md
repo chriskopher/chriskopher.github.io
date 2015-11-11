@@ -7,16 +7,16 @@ title: Courses
   Here's a little bit of my background.
 </p>
 
-
-<hr>
 ### Current Courses:
 * Fall 2015
-  *ELEC 278 Fundamentals of Data Structures
-  *ELEC 371 Microprocessor Interfacing and Embedded Systems
-  *MTHE 326 Functions of a Complex Variable (Complex Analysis)
-  *MTHE 334 Signals and Systems
-  *MTHE 351 Probability I
-  *CMPE 333 Introduction to Data Mining
+  * ELEC 278 Fundamentals of Data Structures
+  * ELEC 371 Microprocessor Interfacing and Embedded Systems
+  * MTHE 326 Functions of a Complex Variable (Complex Analysis)
+  * MTHE 334 Signals and Systems
+  * MTHE 351 Probability I
+  * CMPE 333 Introduction to Data Mining
+
+<hr>
 
 ### Past Courses:
 * Summer 2015
