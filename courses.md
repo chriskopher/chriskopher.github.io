@@ -9,7 +9,7 @@ title: Courses
 
 ### Current Courses:
 * Fall 2015
-  * ELEC 278 Fundamentals of Data Structures
+  * ELEC 278 Fundamentals of Data Structures and Algorithms
   * ELEC 371 Microprocessor Interfacing and Embedded Systems
   * MTHE 326 Functions of a Complex Variable (Complex Analysis)
   * MTHE 334 Signals and Systems
