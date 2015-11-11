@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Volunteer
+published: false
 ---
 
 <p class="message">

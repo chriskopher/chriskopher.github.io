@@ -6,7 +6,9 @@ end: 2014-12-01
 tags: project
 ---
 
-The completed algorithm was a collaboration with other Queen's students for our APSC 200 (Engineering Design and Practice II) course. We were tasked to solve a problem involving multi-agent systems, and we aimed to optimize package delivery given local-only information. In addition to the creation of the algorithm, an engineering report was written discussing many factors of the implementation. Contact me if you'd like a copy.
+The completed algorithm was a collaboration with other Queen's students for our APSC 200 (Engineering Design and Practice II) course.
+
+We were tasked to solve a problem involving multi-agent systems, and we aimed to optimize package delivery given local-only information. In addition to the creation of the algorithm, an engineering report was written discussing many factors of the implementation. Contact me if you'd like a copy.
 
 Here's the description from the repo:
 
