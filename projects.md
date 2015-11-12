@@ -4,7 +4,7 @@ title: Projects
 ---
 
 <p class="message">
-  Here are my personal projects. Have a look around! I'll be keeping the posts up-to-date.
+  Here are my personal projects. Have a look around! Click on a project to learn more.
 </p>
 
 <div class="post">
