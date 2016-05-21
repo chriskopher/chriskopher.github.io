@@ -8,17 +8,28 @@ title: Courses
 </p>
 
 ### Current Courses:
-* Fall 2015
-  * ELEC 278 Fundamentals of Data Structures and Algorithms
-  * ELEC 371 Microprocessor Interfacing and Embedded Systems
-  * MTHE 326 Functions of a Complex Variable (Complex Analysis)
-  * MTHE 334 Signals and Systems
-  * MTHE 351 Probability I
-  * CMPE 333 Introduction to Data Mining
+* Summer 2016
+  * APSC 301 Professional Internship
 
 <hr>
 
 ### Past Courses:
+* Winter 2016
+  * MTHE 332 Introduction to Control Theory
+  * MTHE 335 Signals and Systems (II)
+  * MTHE 353 Probability II
+  * MTHE 393 Engineering Design and Practice III
+  * CMPE 212 Introduction to Computing Science II
+  * ECON 112 Introductory Macroeconomics
+
+* Fall 2015
+  * ELEC 278 Fundamentals of Data Structures and Algorithms
+  * ELEC 371 Microprocessor Interfacing and Embedded Systems
+  * MTHE 326 Functions of a Complex Variable (Complex Analysis)
+  * MTHE 334 Signals and Systems (I)
+  * MTHE 351 Probability I
+  * CMPE 333 Introduction to Data Mining
+
 * Summer 2015
   * ECON 111 Introductory Microeconomics
 
