@@ -2,7 +2,7 @@
 layout: post
 title: QMAST Software Member
 start: 2014-09-08
-end: Present
+end: 2016-04-15
 tags: volunteer
 ---
 
