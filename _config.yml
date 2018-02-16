@@ -22,7 +22,7 @@ paginate:         5
 # Custom vars
 version:          1.0.0
 
-github:
+github: 
   repo:           https://github.com/chriskopher
 
 linkedin:
@@ -31,5 +31,7 @@ linkedin:
 email:
   link:           mailto:christopher.ko@queensu.ca
 
-gems:
+github: [metadata]
+
+plugins:
   - jekyll-sitemap
